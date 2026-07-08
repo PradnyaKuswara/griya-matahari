@@ -1,0 +1,11 @@
+version: "3.8"
+
+services:
+  web-griyamatahari:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    container_name: griyamatahari-app
+    ports:
+      - "3003:3000"
+    restart: unless-stopped
