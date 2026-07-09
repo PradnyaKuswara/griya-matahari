@@ -56,12 +56,12 @@ export default function Navbar() {
             <Link to="/" className="flex items-center gap-2 group">
               <div className="relative">
                 <div className="w-10 h-10 rounded-xl overflow-hidden bg-white flex items-center justify-center shadow-lg group-hover:shadow-orange-400/50 transition-shadow duration-300">
-                  <img src="/griya_matahari_logo.png" alt="Logo Griya Matahari" className="w-full h-full object-contain p-0.5" />
+                  <img src="/griya_matahari_logo.png" alt="Logo Tedung Kost Matahari" className="w-full h-full object-contain p-0.5" />
                 </div>
               </div>
               <div className="hidden sm:block">
                 <p className="font-bold text-base-content leading-none" style={{ fontFamily: 'Poppins, sans-serif' }}>
-                  Griya Matahari
+                  Tedung Kost Matahari
                 </p>
                 <p className="text-xs text-base-content/60 leading-none">Hunian Nyaman & Modern</p>
               </div>

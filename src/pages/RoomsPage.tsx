@@ -39,12 +39,12 @@ export default function RoomsPage() {
       transition={{ duration: 0.3 }}
     >
       <Helmet>
-        <title>Daftar Kamar & Harga Sewa – Kost Griya Matahari</title>
-        <meta name="description" content="Pilihan Kamar Kost Griya Matahari Klungkung Bali. Kamar Standard (Non-AC) mulai Rp 1.100.000 dan Deluxe (AC) mulai Rp 1.500.000. Fasilitas include air & listrik." />
-        <link rel="canonical" href="https://griyamatahariklungkung.com/rooms" />
+        <title>Daftar Kamar & Harga Sewa – Tedung Kost Matahari</title>
+        <meta name="description" content="Pilihan Kamar Tedung Kost Matahari Klungkung Bali. Kamar Standard (Non-AC) mulai Rp 1.100.000 dan Deluxe (AC) mulai Rp 1.500.000. Fasilitas include air & listrik." />
+        <link rel="canonical" href="https://griyamatahari.web.id/rooms" />
       </Helmet>
       {/* Header */}
-      <div className="relative pt-24 pb-16 overflow-hidden bg-gradient-to-br from-primary/10 via-base-100 to-secondary/5">
+      <div className="relative pt-24 pb-16 overflow-hidden bg-linear-to-br from-primary/10 via-base-100 to-secondary/5">
         <div className="absolute inset-0 opacity-5" style={{ backgroundImage: 'radial-gradient(circle, currentColor 1px, transparent 1px)', backgroundSize: '24px 24px' }} />
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center relative">
           <motion.div initial={{ opacity: 0, y: 20 }} animate={{ opacity: 1, y: 0 }} transition={{ duration: 0.5 }}>
@@ -86,9 +86,8 @@ export default function RoomsPage() {
                 <button
                   key={btn.value}
                   onClick={() => setFilter(btn.value)}
-                  className={`btn btn-xs sm:btn-sm rounded-xl whitespace-nowrap flex-shrink-0 gap-1 ${
-                    filter === btn.value ? 'btn-primary' : 'btn-ghost border border-base-300'
-                  }`}
+                  className={`btn btn-xs sm:btn-sm rounded-xl whitespace-nowrap shrink-0 gap-1 ${filter === btn.value ? 'btn-primary' : 'btn-ghost border border-base-300'
+                    }`}
                 >
                   <span>{btn.emoji}</span>
                   {btn.label}

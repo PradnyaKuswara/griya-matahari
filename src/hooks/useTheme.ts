@@ -1,7 +1,7 @@
 import { useState, useEffect, useCallback } from 'react';
 import type { DaisyTheme } from '../types';
 
-const THEME_STORAGE_KEY = 'griya-matahari-theme';
+const THEME_STORAGE_KEY = 'tedung-kost-matahari-theme';
 
 export function useTheme() {
   const [theme, setTheme] = useState<DaisyTheme>(() => {
