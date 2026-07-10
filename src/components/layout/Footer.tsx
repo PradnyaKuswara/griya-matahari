@@ -27,10 +27,10 @@ export default function Footer() {
           <div className="lg:col-span-1">
             <div className="flex items-center gap-2 mb-4">
               <div className="w-10 h-10 rounded-xl overflow-hidden bg-white flex items-center justify-center">
-                <img src="/griya_matahari_logo.png" alt="Logo Griya Matahari" className="w-full h-full object-contain p-0.5" />
+                <img src="/griya_matahari_logo.png" alt="Logo Tedung Kost Matahari" className="w-full h-full object-contain p-0.5" />
               </div>
               <div>
-                <p className="font-bold text-base-content" style={{ fontFamily: 'Poppins, sans-serif' }}>Griya Matahari</p>
+                <p className="font-bold text-base-content" style={{ fontFamily: 'Poppins, sans-serif' }}>Tedung Kost Matahari</p>
                 <p className="text-xs text-base-content/60">Kost Nyaman & Modern</p>
               </div>
             </div>
@@ -93,7 +93,7 @@ export default function Footer() {
               <li className="flex items-start gap-3">
                 <MapPin size={18} className="text-primary flex-shrink-0 mt-0.5" />
                 <p className="text-sm text-base-content/70 leading-relaxed">
-                  Griya Matahari<br />
+                  Tedung Kost Matahari<br />
                   Jl. Matahari, Semarapura Kelod<br />
                   Kec. Klungkung, Kab. Klungkung<br />
                   Bali 80716 (F94W+RP4)
@@ -115,14 +115,14 @@ export default function Footer() {
               </li>
               <li className="flex items-center gap-3">
                 <Mail size={18} className="text-primary flex-shrink-0" />
-                <a href="mailto:griyamatahari@gmail.com" className="text-sm text-base-content/70 hover:text-primary transition-colors">
-                  griyamatahari@gmail.com
+                <a href="mailto:tedungkostmatahari@gmail.com" className="text-sm text-base-content/70 hover:text-primary transition-colors">
+                  tedungkostmatahari@gmail.com
                 </a>
               </li>
             </ul>
             {/* WhatsApp CTA */}
             <a
-              href="https://wa.me/628124605815?text=Halo%20Kost%20Griya%20Matahari%2C%20saya%20ingin%20bertanya%20tentang%20kamar."
+              href="https://wa.me/628124605815?text=Halo%20Tedung%20Kost%20Matahari%2C%20saya%20ingin%20bertanya%20tentang%20kamar."
               target="_blank" rel="noopener noreferrer"
               className="mt-4 btn btn-success btn-sm w-full gap-2 rounded-xl"
             >
@@ -136,7 +136,7 @@ export default function Footer() {
       <div className="border-t border-base-300 bg-base-300/50">
         <div className="max-w-7xl mx-auto px-4 py-4 flex flex-col sm:flex-row items-center justify-between gap-2">
           <p className="text-xs text-base-content/50">
-            © {currentYear} Kost Griya Matahari. Semua hak dilindungi.
+            © {currentYear} Tedung Kost Matahari. Semua hak dilindungi.
           </p>
           <p className="text-xs text-base-content/50 flex items-center gap-1">
             Dibuat dengan <Heart size={12} className="text-red-400 fill-red-400" /> untuk kenyamanan Anda

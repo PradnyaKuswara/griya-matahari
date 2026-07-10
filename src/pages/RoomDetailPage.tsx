@@ -15,7 +15,7 @@ export default function RoomDetailPage() {
     return (
       <div className="min-h-screen flex flex-col items-center justify-center pt-20 gap-4">
         <Helmet>
-          <title>Kamar Tidak Ditemukan – Kost Griya Matahari</title>
+          <title>Kamar Tidak Ditemukan – Tedung Kost Matahari</title>
         </Helmet>
         <span className="text-6xl">🏠</span>
         <h1 className="text-2xl font-bold" style={{ fontFamily: 'Poppins, sans-serif' }}>Kamar tidak ditemukan</h1>
@@ -28,7 +28,7 @@ export default function RoomDetailPage() {
     standard: 'Standard', deluxe: 'Deluxe', premium: 'Premium', vip: 'VIP'
   };
 
-  const waMessage = encodeURIComponent(`Halo Kost Griya Matahari, saya tertarik dengan ${room.name} (${room.priceLabel}/bulan). Apakah masih tersedia?`);
+  const waMessage = encodeURIComponent(`Halo Tedung Kost Matahari, saya tertarik dengan ${room.name} (${room.priceLabel}/bulan). Apakah masih tersedia?`);
 
   return (
     <motion.div
@@ -38,9 +38,9 @@ export default function RoomDetailPage() {
       className="pt-20"
     >
       <Helmet>
-        <title>{`${room.name} – Kost Griya Matahari`}</title>
+        <title>{`${room.name} – Tedung Kost Matahari`}</title>
         <meta name="description" content={`Sewa kamar ${room.name} Klungkung Bali. Harga sewa ${room.priceLabel}/bulan. Fasilitas: ${room.facilities.slice(0, 4).join(', ')}. Include listrik & air.`} />
-        <link rel="canonical" href={`https://griyamatahariklungkung.com/rooms/${room.id}`} />
+        <link rel="canonical" href={`https://griyamatahari.web.id/rooms/${room.id}`} />
       </Helmet>
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-8">
         {/* Back */}
@@ -101,7 +101,7 @@ export default function RoomDetailPage() {
 
             {/* Rules Section */}
             <div className="mt-8 p-6 rounded-2xl bg-base-200">
-              <h3 className="font-bold text-base-content mb-3" style={{ fontFamily: 'Poppins, sans-serif' }}>Aturan Kost Griya Matahari</h3>
+              <h3 className="font-bold text-base-content mb-3" style={{ fontFamily: 'Poppins, sans-serif' }}>Aturan Tedung Kost Matahari</h3>
               <ul className="space-y-2 text-sm text-base-content/80">
                 <li className="flex items-start gap-2">
                   <span className="text-error font-bold">•</span>
@@ -133,12 +133,12 @@ export default function RoomDetailPage() {
               <span className="badge badge-secondary mb-2">Khusus Putri (Mahasiswi/Karyawati)</span>
               <h1 className="text-3xl font-bold text-base-content" style={{ fontFamily: 'Poppins, sans-serif' }}>{room.name}</h1>
               <div className="flex items-center gap-2 mt-2">
-                <span className="text-sm text-base-content/50">Griya Matahari Klungkung, Bali</span>
+                <span className="text-sm text-base-content/50">Tedung Kost Matahari Klungkung, Bali</span>
               </div>
             </div>
 
             {/* Price */}
-            <div className="card bg-gradient-to-br from-primary/10 to-primary/5 border border-primary/20 p-5 rounded-2xl">
+            <div className="card bg-linear-to-br from-primary/10 to-primary/5 border border-primary/20 p-5 rounded-2xl">
               <p className="text-sm text-base-content/60">Harga Sewa</p>
               <p className="text-4xl font-black text-primary mt-1" style={{ fontFamily: 'Poppins, sans-serif' }}>
                 {room.priceLabel}
@@ -173,7 +173,7 @@ export default function RoomDetailPage() {
               <div className="grid grid-cols-2 gap-2">
                 {room.facilities.map((f) => (
                   <div key={f} className="flex items-center gap-2 text-sm">
-                    <CheckCircle2 size={14} className="text-success flex-shrink-0" />
+                    <CheckCircle2 size={14} className="text-success shrink-0" />
                     <span className="text-base-content/80">{f}</span>
                   </div>
                 ))}

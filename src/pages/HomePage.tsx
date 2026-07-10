@@ -15,9 +15,9 @@ export default function HomePage() {
       transition={{ duration: 0.3 }}
     >
       <Helmet>
-        <title>Kost Griya Matahari Klungkung – Hunian Asri & Nyaman di Bali</title>
-        <meta name="description" content="Kost Griya Matahari Klungkung Bali – Hunian kos eksklusif khusus putri (mahasiswi/karyawati) yang aman, nyaman, dan sejuk di Semarapura. WiFi 75 Mbps, kamar mandi dalam." />
-        <link rel="canonical" href="https://griyamatahariklungkung.com/" />
+        <title>Tedung Kost Matahari Klungkung – Hunian Asri & Nyaman di Bali</title>
+        <meta name="description" content="Tedung Kost Matahari Klungkung Bali – Hunian kos eksklusif khusus putri (mahasiswi/karyawati) yang aman, nyaman, dan sejuk di Semarapura. WiFi 75 Mbps, kamar mandi dalam." />
+        <link rel="canonical" href="https://griyamatahari.web.id/" />
       </Helmet>
       <HeroSection />
       <StatsSection />

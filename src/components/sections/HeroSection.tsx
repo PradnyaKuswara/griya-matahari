@@ -120,7 +120,7 @@ export default function HeroSection() {
           >
             Hunian Asri & Nyaman<br />
             <span className="bg-gradient-to-r from-yellow-500 via-orange-500 to-red-500 bg-clip-text text-transparent drop-shadow-sm font-extrabold">
-              Griya Matahari
+              Tedung Kost Matahari
             </span>
           </h1>
 
@@ -155,7 +155,7 @@ export default function HeroSection() {
               <ArrowRight size={20} />
             </Link>
             <a
-              href="https://wa.me/628124605815?text=Halo%20Kost%20Griya%20Matahari%2C%20saya%20tertarik%20tanya%20ketersediaan%20kamar."
+              href="https://wa.me/628124605815?text=Halo%20Tedung%20Kost%20Matahari%2C%20saya%20tertarik%20tanya%20ketersediaan%20kamar."
               target="_blank"
               rel="noopener noreferrer"
               className="btn btn-lg btn-outline border-2 rounded-2xl gap-2 px-8 hover:scale-[1.03] transition-transform w-full sm:w-auto"

@@ -12,12 +12,12 @@ export default function FacilitiesPage() {
       className="pt-20"
     >
       <Helmet>
-        <title>Fasilitas Kost Lengkap – Kost Griya Matahari</title>
-        <meta name="description" content="Fasilitas Kost Griya Matahari Klungkung Bali. WiFi Fiber 75 Mbps, area parkir, sistem keamanan aman & nyaman, akses kunci gerbang 24 jam, pemandangan asri Bali." />
-        <link rel="canonical" href="https://griyamatahariklungkung.com/facilities" />
+        <title>Fasilitas Kost Lengkap – Tedung Kost Matahari</title>
+        <meta name="description" content="Fasilitas Tedung Kost Matahari Klungkung Bali. WiFi Fiber 75 Mbps, area parkir, sistem keamanan aman & nyaman, akses kunci gerbang 24 jam, pemandangan asri Bali." />
+        <link rel="canonical" href="https://griyamatahari.web.id/facilities" />
       </Helmet>
       {/* Header */}
-      <div className="relative py-16 overflow-hidden bg-gradient-to-br from-emerald-500/10 via-base-100 to-cyan-500/5">
+      <div className="relative py-16 overflow-hidden bg-linear-to-br from-emerald-500/10 via-base-100 to-cyan-500/5">
         <div className="absolute inset-0 opacity-5" style={{ backgroundImage: 'radial-gradient(circle, currentColor 1px, transparent 1px)', backgroundSize: '24px 24px' }} />
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center relative">
           <motion.div initial={{ opacity: 0, y: 20 }} animate={{ opacity: 1, y: 0 }}>

@@ -5,7 +5,7 @@ import { CheckCircle2, ArrowRight, Heart, Target, Eye } from 'lucide-react';
 import CTASection from '../components/sections/CTASection';
 
 const team = [
-  { name: 'I Gusti Ngurah Mantra', role: 'Pemilik & Pengelola', avatar: 'https://api.dicebear.com/9.x/avataaars/svg?seed=Mantra&backgroundColor=fde68a', desc: 'Pendiri utama yang mendirikan dan mengawasi jalannya Kost Griya Matahari' },
+  { name: 'I Gusti Ngurah Mantra', role: 'Pemilik & Pengelola', avatar: 'https://api.dicebear.com/9.x/avataaars/svg?seed=Mantra&backgroundColor=fde68a', desc: 'Pendiri utama yang mendirikan dan mengawasi jalannya Tedung Kost Matahari' },
   { name: 'I Gusti Ayu Made Sri Adnyani', role: 'Pemilik & Pengelola', avatar: 'https://api.dicebear.com/9.x/avataaars/svg?seed=AyuSri&backgroundColor=ffd5dc', desc: 'Pemilik pendamping yang mengelola aspek operasional harian dan kenyamanan penghuni' },
   { name: 'Pradnya Kuswara', role: 'Pengelola', avatar: 'https://api.dicebear.com/9.x/avataaars/svg?seed=Kuswara&backgroundColor=c0aede', desc: 'Mengelola administrasi harian, sistem pendukung, jaringan WiFi, serta layanan penghuni' },
 ];
@@ -26,12 +26,12 @@ export default function AboutPage() {
       className="pt-20"
     >
       <Helmet>
-        <title>Tentang Kami & Tim Pengelola – Kost Griya Matahari</title>
-        <meta name="description" content="Kisah pendirian Kost Griya Matahari Klungkung Bali tahun 2026. Temui pemilik dan tim pengelola kami: I Gusti Ngurah Mantra, I Gusti Ayu Made Sri Adnyani, dan Pradnya Kuswara." />
-        <link rel="canonical" href="https://griyamatahariklungkung.com/about" />
+        <title>Tentang Kami & Tim Pengelola – Tedung Kost Matahari</title>
+        <meta name="description" content="Kisah pendirian Tedung Kost Matahari Klungkung Bali tahun 2026. Temui pemilik dan tim pengelola kami: I Gusti Ngurah Mantra, I Gusti Ayu Made Sri Adnyani, dan Pradnya Kuswara." />
+        <link rel="canonical" href="https://griyamatahari.web.id/about" />
       </Helmet>
       {/* Hero */}
-      <div className="relative py-20 overflow-hidden bg-gradient-to-br from-amber-500/15 via-orange-500/5 to-base-100">
+      <div className="relative py-20 overflow-hidden bg-linear-to-br from-amber-500/15 via-orange-500/5 to-base-100">
         <div className="absolute top-0 right-0 w-96 h-96 bg-yellow-400/10 rounded-full blur-3xl -translate-y-1/2 translate-x-1/2" />
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative">
           <div className="grid lg:grid-cols-2 gap-12 items-center">
@@ -39,15 +39,15 @@ export default function AboutPage() {
               <span className="badge badge-warning badge-outline mb-4">Tentang Kami</span>
               <h1 className="text-4xl md:text-5xl font-bold text-base-content mb-6" style={{ fontFamily: 'Poppins, sans-serif' }}>
                 Kisah di Balik{' '}
-                <span className="text-warning">Griya Matahari</span>
+                <span className="text-warning">Tedung Kost Matahari</span>
               </h1>
               <p className="text-base-content/70 leading-relaxed mb-4">
-                Didirikan pada tahun 2026, <strong>Kost Griya Matahari</strong> lahir dari impian sederhana:
+                Didirikan pada tahun 2026, <strong>Tedung Kost Matahari</strong> lahir dari impian sederhana:
                 menciptakan hunian yang terasa seperti rumah sendiri bagi para mahasiswi dan karyawati di Klungkung, Bali.
               </p>
               <p className="text-base-content/70 leading-relaxed mb-8">
                 Kami berkomitmen untuk terus berkembang dengan mendengarkan masukan penghuni, meningkatkan fasilitas,
-                dan mempertahankan kehangatan keluarga dalam setiap sudut Griya Matahari.
+                dan mempertahankan kehangatan keluarga dalam setiap sudut Tedung Kost Matahari.
               </p>
               <Link to="/contact" className="btn btn-warning rounded-xl gap-2 hover:scale-105 transition-transform">
                 Hubungi Kami <ArrowRight size={16} />
@@ -130,7 +130,7 @@ export default function AboutPage() {
           >
             <span className="badge badge-secondary badge-outline mb-3">Orang-Orang Kami</span>
             <h2 className="text-3xl font-bold text-base-content" style={{ fontFamily: 'Poppins, sans-serif' }}>
-              Tim <span className="text-secondary">Griya Matahari</span>
+              Tim <span className="text-secondary">Tedung Kost Matahari</span>
             </h2>
           </motion.div>
           <div className="grid sm:grid-cols-3 gap-8 max-w-3xl mx-auto">
