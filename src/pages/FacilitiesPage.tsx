@@ -12,8 +12,9 @@ export default function FacilitiesPage() {
       className="pt-20"
     >
       <Helmet>
-        <title>Fasilitas Kost Lengkap – Tedung Kost Matahari</title>
-        <meta name="description" content="Fasilitas Tedung Kost Matahari Klungkung Bali. WiFi Fiber 75 Mbps, area parkir, sistem keamanan aman & nyaman, akses kunci gerbang 24 jam, pemandangan asri Bali." />
+        <title>Fasilitas Kost Putri Klungkung – WiFi, AC, CCTV | Teduh Kost Matahari</title>
+        <meta name="description" content="Fasilitas lengkap Teduh Kost Matahari Klungkung Bali: WiFi 75 Mbps, kamar mandi dalam, AC (Deluxe), CCTV 24 jam, parkir motor aman, akses kunci gerbang sendiri, include listrik & air. Kost putri di Semarapura." />
+        <meta name="keywords" content="fasilitas kost klungkung, kost wifi klungkung, kost cctv klungkung, kost include listrik air bali, kost kamar mandi dalam klungkung" />
         <link rel="canonical" href="https://griyamatahari.web.id/facilities" />
       </Helmet>
       {/* Header */}

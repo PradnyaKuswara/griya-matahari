@@ -1,6 +1,6 @@
 @import "tailwindcss";
 @plugin "daisyui" {
-  themes: light --default, dark --prefersdark, cupcake, emerald, cyberpunk, valentine, garden, aqua, lofi, pastel, fantasy, dracula, luxury, night, coffee, winter, dim, nord, sunset;
+  themes: winter --default, forest --prefersdark, light, dark, cupcake, emerald, cyberpunk, valentine, garden, aqua, lofi, pastel, fantasy, dracula, luxury, night, coffee, dim, nord, sunset;
 }
 
 @theme {

@@ -34,7 +34,7 @@ export default function CTASection() {
 
           <h2 className="text-4xl md:text-5xl font-black leading-tight mb-6" style={{ fontFamily: 'Poppins, sans-serif' }}>
             Siap Pindah ke{' '}
-            <span className="text-yellow-200 text-glow">Tedung Kost Matahari?</span>
+            <span className="text-yellow-200 text-glow">Teduh Kost Matahari?</span>
           </h2>
 
           <p className="text-lg text-white/80 mb-10 max-w-2xl mx-auto leading-relaxed">

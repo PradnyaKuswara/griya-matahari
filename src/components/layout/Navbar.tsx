@@ -4,8 +4,8 @@ import { motion, AnimatePresence } from 'framer-motion';
 import { Sun, Moon, Menu, X, Palette, Home, BedDouble, Sparkles, Image, Phone, Info } from 'lucide-react';
 import { useTheme } from '../../hooks/useTheme';
 import { useScrollPosition } from '../../hooks/useUtils';
-import { themeOptions } from '../../data/facilities';
-import ThemeSelector from '../ui/ThemeSelector';
+// import { themeOptions } from '../../data/facilities';
+// import ThemeSelector from '../ui/ThemeSelector';
 
 const navItems = [
   { label: 'Home', path: '/', icon: Home },
@@ -56,12 +56,12 @@ export default function Navbar() {
             <Link to="/" className="flex items-center gap-2 group">
               <div className="relative">
                 <div className="w-10 h-10 rounded-xl overflow-hidden bg-white flex items-center justify-center shadow-lg group-hover:shadow-orange-400/50 transition-shadow duration-300">
-                  <img src="/griya_matahari_logo.png" alt="Logo Tedung Kost Matahari" className="w-full h-full object-contain p-0.5" />
+                  <img src="/griya_matahari_logo.png" alt="Logo Teduh Kost Matahari" className="w-full h-full object-contain p-0.5" />
                 </div>
               </div>
               <div className="hidden sm:block">
                 <p className="font-bold text-base-content leading-none" style={{ fontFamily: 'Poppins, sans-serif' }}>
-                  Tedung Kost Matahari
+                  Teduh Kost Matahari
                 </p>
                 <p className="text-xs text-base-content/60 leading-none">Hunian Nyaman & Modern</p>
               </div>
@@ -96,7 +96,7 @@ export default function Navbar() {
             {/* Right Actions */}
             <div className="flex items-center gap-2">
               {/* Theme Selector */}
-              <div className="relative" onClick={(e) => e.stopPropagation()}>
+              {/* <div className="relative" onClick={(e) => e.stopPropagation()}>
                 <button
                   id="theme-toggle-btn"
                   onClick={() => setThemeOpen(!themeOpen)}
@@ -114,7 +114,7 @@ export default function Navbar() {
                     />
                   )}
                 </AnimatePresence>
-              </div>
+              </div> */}
 
               {/* Dark/Light Toggle */}
               <button

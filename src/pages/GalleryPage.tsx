@@ -9,7 +9,7 @@ const galleryItems = [
   { id: 'g-03', title: 'Kamar Standard', category: 'kamar', image: 'https://images.unsplash.com/photo-1555854877-bab0e564b8d5?w=800&q=80' },
   { id: 'g-06', title: 'Dapur Bersama', category: 'fasilitas', image: 'https://images.unsplash.com/photo-1556909114-f6e7ad7d3136?w=800&q=80' },
   { id: 'g-07', title: 'Taman & Gazebo Sejuk', category: 'eksterior', image: 'https://images.unsplash.com/photo-1558618666-fcd25c85cd64?w=800&q=80' },
-  { id: 'g-08', title: 'Tampak Depan Tedung Kost Matahari', category: 'eksterior', image: 'https://images.unsplash.com/photo-1570129477492-45c003edd2be?w=800&q=80' },
+  { id: 'g-08', title: 'Tampak Depan Teduh Kost Matahari', category: 'eksterior', image: 'https://images.unsplash.com/photo-1570129477492-45c003edd2be?w=800&q=80' },
   { id: 'g-09', title: 'Area Parkir Luas', category: 'eksterior', image: 'https://images.unsplash.com/photo-1506521781263-d8422e82f27a?w=800&q=80' },
   { id: 'g-10', title: 'Ruang Santai Bersama', category: 'interior', image: 'https://images.unsplash.com/photo-1555041469-a586c61ea9bc?w=800&q=80' },
   { id: 'g-11', title: 'Koridor Lantai Sejuk', category: 'interior', image: 'https://images.unsplash.com/photo-1600566753190-17f0baa2a6c3?w=800&q=80' },
@@ -43,8 +43,8 @@ export default function GalleryPage() {
       className="pt-20"
     >
       <Helmet>
-        <title>Galeri Foto Kost Lengkap – Tedung Kost Matahari</title>
-        <meta name="description" content="Foto-foto unit Kamar Deluxe AC & Standard, dapur bersama, area parkir, dan lingkungan sejuk Tedung Kost Matahari Semarapura Klungkung Bali." />
+        <title>Galeri Foto Kost Lengkap – Teduh Kost Matahari</title>
+        <meta name="description" content="Foto-foto unit Kamar Deluxe AC & Standard, dapur bersama, area parkir, dan lingkungan sejuk Teduh Kost Matahari Semarapura Klungkung Bali." />
         <link rel="canonical" href="https://griyamatahari.web.id/gallery" />
       </Helmet>
       {/* Header */}
@@ -56,7 +56,7 @@ export default function GalleryPage() {
               Galeri <span className="text-secondary">Foto</span>
             </h1>
             <p className="text-base-content/60 max-w-xl mx-auto">
-              Lihat lebih dekat keindahan dan kenyamanan Tedung Kost Matahari dari berbagai sudut
+              Lihat lebih dekat keindahan dan kenyamanan Teduh Kost Matahari dari berbagai sudut
             </p>
           </motion.div>
         </div>

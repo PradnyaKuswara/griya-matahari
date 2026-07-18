@@ -78,7 +78,7 @@ export default function StatsSection() {
             <span className="text-primary">Penghuni</span>
           </h2>
           <p className="text-base-content/60 mt-3 max-w-lg mx-auto">
-            Selama 8+ tahun, kami terus menjaga kepercayaan dan kepuasan setiap penghuni Tedung Kost Matahari
+            Selama 8+ tahun, kami terus menjaga kepercayaan dan kepuasan setiap penghuni Teduh Kost Matahari
           </p>
         </motion.div>
 

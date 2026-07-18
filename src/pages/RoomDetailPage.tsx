@@ -15,7 +15,7 @@ export default function RoomDetailPage() {
     return (
       <div className="min-h-screen flex flex-col items-center justify-center pt-20 gap-4">
         <Helmet>
-          <title>Kamar Tidak Ditemukan – Tedung Kost Matahari</title>
+          <title>Kamar Tidak Ditemukan – Teduh Kost Matahari</title>
         </Helmet>
         <span className="text-6xl">🏠</span>
         <h1 className="text-2xl font-bold" style={{ fontFamily: 'Poppins, sans-serif' }}>Kamar tidak ditemukan</h1>
@@ -28,7 +28,7 @@ export default function RoomDetailPage() {
     standard: 'Standard', deluxe: 'Deluxe', premium: 'Premium', vip: 'VIP'
   };
 
-  const waMessage = encodeURIComponent(`Halo Tedung Kost Matahari, saya tertarik dengan ${room.name} (${room.priceLabel}/bulan). Apakah masih tersedia?`);
+  const waMessage = encodeURIComponent(`Halo Teduh Kost Matahari, saya tertarik dengan ${room.name} (${room.priceLabel}/bulan). Apakah masih tersedia?`);
 
   return (
     <motion.div
@@ -38,7 +38,7 @@ export default function RoomDetailPage() {
       className="pt-20"
     >
       <Helmet>
-        <title>{`${room.name} – Tedung Kost Matahari`}</title>
+        <title>{`${room.name} – Teduh Kost Matahari`}</title>
         <meta name="description" content={`Sewa kamar ${room.name} Klungkung Bali. Harga sewa ${room.priceLabel}/bulan. Fasilitas: ${room.facilities.slice(0, 4).join(', ')}. Include listrik & air.`} />
         <link rel="canonical" href={`https://griyamatahari.web.id/rooms/${room.id}`} />
       </Helmet>
@@ -101,7 +101,7 @@ export default function RoomDetailPage() {
 
             {/* Rules Section */}
             <div className="mt-8 p-6 rounded-2xl bg-base-200">
-              <h3 className="font-bold text-base-content mb-3" style={{ fontFamily: 'Poppins, sans-serif' }}>Aturan Tedung Kost Matahari</h3>
+              <h3 className="font-bold text-base-content mb-3" style={{ fontFamily: 'Poppins, sans-serif' }}>Aturan Teduh Kost Matahari</h3>
               <ul className="space-y-2 text-sm text-base-content/80">
                 <li className="flex items-start gap-2">
                   <span className="text-error font-bold">•</span>
@@ -133,7 +133,7 @@ export default function RoomDetailPage() {
               <span className="badge badge-secondary mb-2">Khusus Putri (Mahasiswi/Karyawati)</span>
               <h1 className="text-3xl font-bold text-base-content" style={{ fontFamily: 'Poppins, sans-serif' }}>{room.name}</h1>
               <div className="flex items-center gap-2 mt-2">
-                <span className="text-sm text-base-content/50">Tedung Kost Matahari Klungkung, Bali</span>
+                <span className="text-sm text-base-content/50">Teduh Kost Matahari Klungkung, Bali</span>
               </div>
             </div>
 

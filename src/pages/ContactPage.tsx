@@ -18,8 +18,8 @@ export default function ContactPage() {
       className="min-h-screen pt-20 flex flex-col lg:flex-row bg-base-100"
     >
       <Helmet>
-        <title>Hubungi Kami / Booking Kamar – Tedung Kost Matahari</title>
-        <meta name="description" content="Kontak telepon & WhatsApp resmi pengelola Tedung Kost Matahari Klungkung Bali (Ayu Sri: +628124605815, Kuswara: +628970474149) untuk booking atau survey lokasi." />
+        <title>Hubungi Kami / Booking Kamar – Teduh Kost Matahari</title>
+        <meta name="description" content="Kontak telepon & WhatsApp resmi pengelola Teduh Kost Matahari Klungkung Bali (Ayu Sri: +628124605815, Kuswara: +628970474149) untuk booking atau survey lokasi." />
         <link rel="canonical" href="https://griyamatahari.web.id/contact" />
       </Helmet>
       {/* KIRI: Google Maps & Floating Glass Info (Full height on desktop) */}
@@ -30,7 +30,7 @@ export default function ContactPage() {
           allowFullScreen
           loading="lazy"
           referrerPolicy="no-referrer-when-downgrade"
-          title="Lokasi Tedung Kost Matahari"
+          title="Lokasi Teduh Kost Matahari"
         />
 
         {/* Floating Glassmorphism Badge */}
@@ -40,7 +40,7 @@ export default function ContactPage() {
             <p className="text-xs text-base-content/60 font-semibold">Semarapura Kelod, Bali</p>
           </div>
           <h2 className="text-xl sm:text-2xl font-black text-base-content" style={{ fontFamily: 'Poppins, sans-serif' }}>
-            Tedung Kost Matahari
+            Teduh Kost Matahari
           </h2>
 
           <div className="grid grid-cols-1 sm:grid-cols-2 gap-3 pt-2 text-xs">
@@ -92,7 +92,7 @@ export default function ContactPage() {
 
             <div className="flex flex-col sm:flex-row gap-4 pt-2">
               <a
-                href="https://wa.me/628124605815?text=Halo%20Tedung%20Kost%20Matahari%2C%20saya%20tertarik%20ingin%20tanya%20informasi%20booking%20kamar."
+                href="https://wa.me/628124605815?text=Halo%20Teduh%20Kost%20Matahari%2C%20saya%20tertarik%20ingin%20tanya%20informasi%20booking%20kamar."
                 target="_blank" rel="noopener noreferrer"
                 className="btn btn-success btn-lg rounded-2xl flex-1 gap-2 font-extrabold text-sm hover:scale-[1.03] transition-transform shadow-lg shadow-success/20"
               >
@@ -100,7 +100,7 @@ export default function ContactPage() {
                 WhatsApp - Ayu Sri
               </a>
               <a
-                href="https://wa.me/628970474149?text=Halo%20Tedung%20Kost%20Matahari%2C%20saya%20tertarik%20ingin%20tanya%20informasi%20booking%20kamar."
+                href="https://wa.me/628970474149?text=Halo%20Teduh%20Kost%20Matahari%2C%20saya%20tertarik%20ingin%20tanya%20informasi%20booking%20kamar."
                 target="_blank" rel="noopener noreferrer"
                 className="btn btn-success btn-lg rounded-2xl flex-1 gap-2 font-extrabold text-sm hover:scale-[1.03] transition-transform shadow-lg shadow-success/20"
               >
