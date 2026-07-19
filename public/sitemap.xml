@@ -6,7 +6,7 @@
 
   <!-- Beranda -->
   <url>
-    <loc>https://griyamatahari.web.id/</loc>
+    <loc>https://teduhkostmatahari.web.id/</loc>
     <lastmod>2026-07-11</lastmod>
     <changefreq>weekly</changefreq>
     <priority>1.0</priority>
@@ -14,7 +14,7 @@
 
   <!-- Tentang Kami -->
   <url>
-    <loc>https://griyamatahari.web.id/about</loc>
+    <loc>https://teduhkostmatahari.web.id/about</loc>
     <lastmod>2026-07-11</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
@@ -22,7 +22,7 @@
 
   <!-- Daftar Kamar -->
   <url>
-    <loc>https://griyamatahari.web.id/rooms</loc>
+    <loc>https://teduhkostmatahari.web.id/rooms</loc>
     <lastmod>2026-07-11</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.9</priority>
@@ -30,7 +30,7 @@
 
   <!-- Detail Kamar Standard (Non-AC) -->
   <url>
-    <loc>https://griyamatahari.web.id/rooms/r-01</loc>
+    <loc>https://teduhkostmatahari.web.id/rooms/r-01</loc>
     <lastmod>2026-07-11</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
@@ -38,7 +38,7 @@
 
   <!-- Detail Kamar Deluxe (With AC) -->
   <url>
-    <loc>https://griyamatahari.web.id/rooms/r-02</loc>
+    <loc>https://teduhkostmatahari.web.id/rooms/r-02</loc>
     <lastmod>2026-07-11</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
@@ -46,7 +46,7 @@
 
   <!-- Fasilitas -->
   <url>
-    <loc>https://griyamatahari.web.id/facilities</loc>
+    <loc>https://teduhkostmatahari.web.id/facilities</loc>
     <lastmod>2026-07-11</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
@@ -54,7 +54,7 @@
 
   <!-- Galeri -->
   <url>
-    <loc>https://griyamatahari.web.id/gallery</loc>
+    <loc>https://teduhkostmatahari.web.id/gallery</loc>
     <lastmod>2026-07-11</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
@@ -62,7 +62,7 @@
 
   <!-- Kontak -->
   <url>
-    <loc>https://griyamatahari.web.id/contact</loc>
+    <loc>https://teduhkostmatahari.web.id/contact</loc>
     <lastmod>2026-07-11</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>

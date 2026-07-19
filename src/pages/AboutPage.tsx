@@ -28,7 +28,7 @@ export default function AboutPage() {
       <Helmet>
         <title>Tentang Kami & Tim Pengelola – Teduh Kost Matahari</title>
         <meta name="description" content="Kisah pendirian Teduh Kost Matahari Klungkung Bali tahun 2026. Temui pemilik dan tim pengelola kami: I Gusti Ngurah Mantra, I Gusti Ayu Made Sri Adnyani, dan Pradnya Kuswara." />
-        <link rel="canonical" href="https://griyamatahari.web.id/about" />
+        <link rel="canonical" href="https://teduhkostmatahari.web.id/about" />
       </Helmet>
       {/* Hero */}
       <div className="relative py-20 overflow-hidden bg-linear-to-br from-amber-500/15 via-orange-500/5 to-base-100">

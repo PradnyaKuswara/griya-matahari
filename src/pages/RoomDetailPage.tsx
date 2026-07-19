@@ -40,7 +40,7 @@ export default function RoomDetailPage() {
       <Helmet>
         <title>{`${room.name} – Teduh Kost Matahari`}</title>
         <meta name="description" content={`Sewa kamar ${room.name} Klungkung Bali. Harga sewa ${room.priceLabel}/bulan. Fasilitas: ${room.facilities.slice(0, 4).join(', ')}. Include listrik & air.`} />
-        <link rel="canonical" href={`https://griyamatahari.web.id/rooms/${room.id}`} />
+        <link rel="canonical" href={`https://teduhkostmatahari.web.id/rooms/${room.id}`} />
       </Helmet>
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-8">
         {/* Back */}

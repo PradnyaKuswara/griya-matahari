@@ -42,7 +42,7 @@ export default function RoomsPage() {
         <title>Harga Kost Klungkung Bali – Kamar AC & Non-AC | Teduh Kost Matahari</title>
         <meta name="description" content="Cek harga sewa kost di Klungkung Bali. Kamar Standard (Non-AC) Rp 1.100.000/bulan & Kamar Deluxe (AC) Rp 1.500.000/bulan. Include listrik, air, WiFi 75 Mbps, kamar mandi dalam. Teduh Kost Matahari Semarapura." />
         <meta name="keywords" content="harga kost klungkung, sewa kamar klungkung bali, kost ac klungkung, kost non ac klungkung, kost murah semarapura, kamar kost putri klungkung" />
-        <link rel="canonical" href="https://griyamatahari.web.id/rooms" />
+        <link rel="canonical" href="https://teduhkostmatahari.web.id/rooms" />
       </Helmet>
       {/* Header */}
       <div className="relative pt-24 pb-16 overflow-hidden bg-linear-to-br from-primary/10 via-base-100 to-secondary/5">

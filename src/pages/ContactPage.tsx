@@ -20,7 +20,7 @@ export default function ContactPage() {
       <Helmet>
         <title>Hubungi Kami / Booking Kamar – Teduh Kost Matahari</title>
         <meta name="description" content="Kontak telepon & WhatsApp resmi pengelola Teduh Kost Matahari Klungkung Bali (Ayu Sri: +628124605815, Kuswara: +628970474149) untuk booking atau survey lokasi." />
-        <link rel="canonical" href="https://griyamatahari.web.id/contact" />
+        <link rel="canonical" href="https://teduhkostmatahari.web.id/contact" />
       </Helmet>
       {/* KIRI: Google Maps & Floating Glass Info (Full height on desktop) */}
       <div className="relative w-full lg:w-1/2 min-h-[400px] lg:min-h-0 bg-base-200">

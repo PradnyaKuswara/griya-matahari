@@ -15,7 +15,7 @@ export default function FacilitiesPage() {
         <title>Fasilitas Kost Putri Klungkung – WiFi, AC, CCTV | Teduh Kost Matahari</title>
         <meta name="description" content="Fasilitas lengkap Teduh Kost Matahari Klungkung Bali: WiFi 75 Mbps, kamar mandi dalam, AC (Deluxe), CCTV 24 jam, parkir motor aman, akses kunci gerbang sendiri, include listrik & air. Kost putri di Semarapura." />
         <meta name="keywords" content="fasilitas kost klungkung, kost wifi klungkung, kost cctv klungkung, kost include listrik air bali, kost kamar mandi dalam klungkung" />
-        <link rel="canonical" href="https://griyamatahari.web.id/facilities" />
+        <link rel="canonical" href="https://teduhkostmatahari.web.id/facilities" />
       </Helmet>
       {/* Header */}
       <div className="relative py-16 overflow-hidden bg-linear-to-br from-emerald-500/10 via-base-100 to-cyan-500/5">

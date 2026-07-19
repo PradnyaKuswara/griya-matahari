@@ -45,7 +45,7 @@ export default function GalleryPage() {
       <Helmet>
         <title>Galeri Foto Kost Lengkap – Teduh Kost Matahari</title>
         <meta name="description" content="Foto-foto unit Kamar Deluxe AC & Standard, dapur bersama, area parkir, dan lingkungan sejuk Teduh Kost Matahari Semarapura Klungkung Bali." />
-        <link rel="canonical" href="https://griyamatahari.web.id/gallery" />
+        <link rel="canonical" href="https://teduhkostmatahari.web.id/gallery" />
       </Helmet>
       {/* Header */}
       <div className="relative py-16 overflow-hidden bg-linear-to-br from-violet-500/10 via-base-100 to-pink-500/5">
