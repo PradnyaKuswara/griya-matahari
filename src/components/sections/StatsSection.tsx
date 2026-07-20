@@ -1,6 +1,6 @@
 import { useRef } from 'react';
 import { motion, useScroll, useTransform } from 'framer-motion';
-import { BedDouble, Users, Calendar, Star } from 'lucide-react';
+import { BedDouble, Users, Calendar, Star, Wifi, Shield } from 'lucide-react';
 import { useIntersectionObserver, useCountUp } from '../../hooks/useUtils';
 import { stats } from '../../data/facilities';
 
@@ -9,6 +9,8 @@ const iconMap = {
   Users,
   Calendar,
   Star,
+  Wifi,
+  Shield,
 };
 
 function StatCounter({ value, suffix, label, icon, start, scrollYProgress }: {
@@ -78,7 +80,7 @@ export default function StatsSection() {
             <span className="text-primary">Penghuni</span>
           </h2>
           <p className="text-base-content/60 mt-3 max-w-lg mx-auto">
-            Selama 8+ tahun, kami terus menjaga kepercayaan dan kepuasan setiap penghuni Teduh Kost Matahari
+            Sebagai kost baru yang bersih & modern, kami berkomitmen memberikan kenyamanan terbaik dan menjaga kepuasan setiap penghuni Teduh Kost Matahari.
           </p>
         </motion.div>
 

@@ -8,12 +8,12 @@ import { useScrollPosition } from '../../hooks/useUtils';
 // import ThemeSelector from '../ui/ThemeSelector';
 
 const navItems = [
-  { label: 'Home', path: '/', icon: Home },
-  { label: 'Rooms', path: '/rooms', icon: BedDouble },
-  { label: 'Facilities', path: '/facilities', icon: Sparkles },
-  { label: 'Gallery', path: '/gallery', icon: Image },
-  { label: 'About', path: '/about', icon: Info },
-  { label: 'Contact', path: '/contact', icon: Phone },
+  { label: 'Beranda', path: '/', icon: Home },
+  { label: 'Kamar', path: '/rooms', icon: BedDouble },
+  { label: 'Fasilitas', path: '/facilities', icon: Sparkles },
+  { label: 'Galeri', path: '/gallery', icon: Image },
+  { label: 'Tentang Kami', path: '/about', icon: Info },
+  { label: 'Kontak', path: '/contact', icon: Phone },
 ];
 
 export default function Navbar() {

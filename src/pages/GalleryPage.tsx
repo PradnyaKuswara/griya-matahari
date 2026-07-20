@@ -5,14 +5,14 @@ import { motion, AnimatePresence } from 'framer-motion';
 type Category = 'semua' | 'kamar' | 'fasilitas' | 'eksterior' | 'interior';
 
 const galleryItems = [
-  { id: 'g-01', title: 'Kamar Deluxe AC', category: 'kamar', image: 'https://images.unsplash.com/photo-1522708323590-d24dbb6b0267?w=800&q=80' },
-  { id: 'g-03', title: 'Kamar Standard', category: 'kamar', image: 'https://images.unsplash.com/photo-1555854877-bab0e564b8d5?w=800&q=80' },
-  { id: 'g-06', title: 'Dapur Bersama', category: 'fasilitas', image: 'https://images.unsplash.com/photo-1556909114-f6e7ad7d3136?w=800&q=80' },
-  { id: 'g-07', title: 'Taman & Gazebo Sejuk', category: 'eksterior', image: 'https://images.unsplash.com/photo-1558618666-fcd25c85cd64?w=800&q=80' },
-  { id: 'g-08', title: 'Tampak Depan Teduh Kost Matahari', category: 'eksterior', image: 'https://images.unsplash.com/photo-1570129477492-45c003edd2be?w=800&q=80' },
-  { id: 'g-09', title: 'Area Parkir Luas', category: 'eksterior', image: 'https://images.unsplash.com/photo-1506521781263-d8422e82f27a?w=800&q=80' },
-  { id: 'g-10', title: 'Ruang Santai Bersama', category: 'interior', image: 'https://images.unsplash.com/photo-1555041469-a586c61ea9bc?w=800&q=80' },
-  { id: 'g-11', title: 'Koridor Lantai Sejuk', category: 'interior', image: 'https://images.unsplash.com/photo-1600566753190-17f0baa2a6c3?w=800&q=80' },
+  { id: 'g-01', title: 'Kamar Standard Bersih', category: 'kamar', image: '/galery/WhatsApp Image 2026-07-19 at 14.35.22.jpeg' },
+  { id: 'g-02', title: 'Kamar Deluxe AC Nyaman', category: 'kamar', image: '/galery/WhatsApp Image 2026-07-19 at 14.35.23.jpeg' },
+  { id: 'g-03', title: 'Tampak Depan Teduh Kost Matahari', category: 'eksterior', image: '/galery/WhatsApp Image 2026-07-19 at 14.36.12.jpeg' },
+  { id: 'g-04', title: 'Area Parkir & Lingkungan Kost', category: 'eksterior', image: '/galery/WhatsApp Image 2026-07-19 at 14.36.17.jpeg' },
+  { id: 'g-05', title: 'Fasilitas Kamar Mandi Dalam', category: 'fasilitas', image: '/galery/WhatsApp Image 2026-07-19 at 15.42.18.jpeg' },
+  { id: 'g-06', title: 'Akses Lorong & Pintu Kamar', category: 'interior', image: '/galery/WhatsApp Image 2026-07-19 at 15.42.19.jpeg' },
+  { id: 'g-07', title: 'Detail Fasilitas Kamar', category: 'kamar', image: '/galery/WhatsApp Image 2026-07-19 at 15.42.20.jpeg' },
+  { id: 'g-08', title: 'Taman & Gazebo Sejuk', category: 'eksterior', image: '/galery/Gemini_Generated_Image_sn5ze3sn5ze3sn5z.png' },
 ];
 
 const categories: { value: Category; label: string; emoji: string }[] = [

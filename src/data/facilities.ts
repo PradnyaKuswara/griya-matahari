@@ -2,7 +2,7 @@ import type { Facility, StatItem, ThemeOption } from '../types';
 
 export const facilities: Facility[] = [
   // Fasilitas Utama
-  { id: 'f-01', name: 'WiFi 75 Mbps', description: 'Koneksi internet fiber optik cepat, stabil 24 jam untuk seluruh penghuni', icon: 'Wifi', category: 'utama' },
+  { id: 'f-01', name: 'WiFi 150 Mbps', description: 'Koneksi internet fiber optik cepat, stabil 24 jam untuk seluruh penghuni', icon: 'Wifi', category: 'utama' },
   { id: 'f-02', name: 'Parkir Nyaman', description: 'Area parkir motor yang aman, teduh, dan terpantau', icon: 'ParkingCircle', category: 'utama' },
   { id: 'f-03', name: 'Akses 24 Jam', description: 'Kebebasan akses keluar-masuk kost kapan saja dengan kunci gerbang sendiri', icon: 'Clock', category: 'utama' },
   { id: 'f-04', name: 'Pemandangan Asri', description: 'Pemandangan alam yang sejuk, hijau, tenang, dan menyegarkan', icon: 'Trees', category: 'utama' },
@@ -20,9 +20,9 @@ export const facilities: Facility[] = [
 
 export const stats: StatItem[] = [
   { label: 'Kamar Tersedia', value: 2, suffix: '', icon: 'BedDouble' },
-  { label: 'WiFi Speed', value: 75, suffix: ' Mbps', icon: 'Wifi' },
+  { label: 'WiFi Speed', value: 150, suffix: ' Mbps', icon: 'Wifi' },
   { label: 'Keamanan', value: 24, suffix: ' Jam', icon: 'Shield' },
-  { label: 'Rating Kepuasan', value: 4.9, suffix: ' ★', icon: 'Star' },
+  { label: 'Rating Kepuasan', value: 5.0, suffix: ' ★', icon: 'Star' },
 ];
 
 export const themeOptions: ThemeOption[] = [

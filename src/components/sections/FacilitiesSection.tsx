@@ -1,11 +1,11 @@
 import { motion } from 'framer-motion';
 import { Link } from 'react-router-dom';
-import { ArrowRight, Wifi, ParkingCircle, ChefHat, Sofa, Wind, ShowerHead, Bed, Laptop, Camera, Shield, Moon, Dumbbell, Waves, Fingerprint, Trees } from 'lucide-react';
+import { ArrowRight, Wifi, ParkingCircle, ChefHat, Sofa, Wind, ShowerHead, Bed, Laptop, Camera, Shield, Moon, Dumbbell, Waves, Fingerprint, Trees, Clock } from 'lucide-react';
 import { facilities } from '../../data/facilities';
 
 const iconMap: Record<string, React.ElementType> = {
   Wifi, ParkingCircle, ChefHat, Sofa, Wind, ShowerHead, Bed, Laptop, Camera,
-  Shield, Moon, Dumbbell, Waves, Fingerprint, Trees,
+  Shield, Moon, Dumbbell, Waves, Fingerprint, Trees, Clock,
   WashingMachine: () => <span className="text-xl">🫧</span>,
 };
 

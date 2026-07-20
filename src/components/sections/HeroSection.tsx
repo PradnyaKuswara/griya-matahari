@@ -137,7 +137,7 @@ export default function HeroSection() {
             </div>
             <div className="flex items-center gap-1.5 px-3 py-1.5 rounded-xl bg-base-200/50 backdrop-blur-sm border border-base-300">
               <Wifi size={14} className="text-primary" />
-              <span>WiFi 75 Mbps</span>
+              <span>WiFi 150 Mbps</span>
             </div>
             <div className="flex items-center gap-1.5 px-3 py-1.5 rounded-xl bg-base-200/50 backdrop-blur-sm border border-base-300">
               <Sparkles size={14} className="text-primary" />

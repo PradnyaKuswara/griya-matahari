@@ -1,18 +1,18 @@
 import { Link } from 'react-router-dom';
-import { MapPin, Phone, Mail, Instagram, Facebook, Twitter, ExternalLink, Heart } from 'lucide-react';
+import { MapPin, Phone, Mail, Instagram, ExternalLink, Heart } from 'lucide-react';
 
 const quickLinks = [
-  { label: 'Home', path: '/' },
-  { label: 'Rooms & Pricing', path: '/rooms' },
-  { label: 'Facilities', path: '/facilities' },
-  { label: 'Gallery', path: '/gallery' },
-  { label: 'About Us', path: '/about' },
-  { label: 'Contact Us', path: '/contact' },
+  { label: 'Beranda', path: '/' },
+  { label: 'Kamar & Harga', path: '/rooms' },
+  { label: 'Fasilitas', path: '/facilities' },
+  { label: 'Galeri', path: '/gallery' },
+  { label: 'Tentang Kami', path: '/about' },
+  { label: 'Hubungi Kami', path: '/contact' },
 ];
 
 const roomLinks = [
-  { label: 'Standard Room (Non-AC)', path: '/rooms?type=standard' },
-  { label: 'Deluxe Room (With AC)', path: '/rooms?type=deluxe' },
+  { label: 'Kamar Standard (Non-AC)', path: '/rooms?type=standard' },
+  { label: 'Kamar Deluxe (AC)', path: '/rooms?type=deluxe' },
 ];
 
 export default function Footer() {
@@ -39,17 +39,9 @@ export default function Footer() {
             </p>
             {/* Social Media */}
             <div className="flex gap-3">
-              <a href="https://instagram.com" target="_blank" rel="noopener noreferrer"
+              <a href="https://instagram.com/teduhkostmatahari" target="_blank" rel="noopener noreferrer"
                 className="btn btn-ghost btn-circle btn-sm hover:bg-pink-500 hover:text-white transition-all">
                 <Instagram size={16} />
-              </a>
-              <a href="https://facebook.com" target="_blank" rel="noopener noreferrer"
-                className="btn btn-ghost btn-circle btn-sm hover:bg-blue-600 hover:text-white transition-all">
-                <Facebook size={16} />
-              </a>
-              <a href="https://twitter.com" target="_blank" rel="noopener noreferrer"
-                className="btn btn-ghost btn-circle btn-sm hover:bg-sky-500 hover:text-white transition-all">
-                <Twitter size={16} />
               </a>
             </div>
           </div>

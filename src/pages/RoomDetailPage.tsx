@@ -19,7 +19,7 @@ export default function RoomDetailPage() {
         </Helmet>
         <span className="text-6xl">🏠</span>
         <h1 className="text-2xl font-bold" style={{ fontFamily: 'Poppins, sans-serif' }}>Kamar tidak ditemukan</h1>
-        <Link to="/rooms" className="btn btn-primary rounded-xl">Back to Rooms</Link>
+        <Link to="/rooms" className="btn btn-primary rounded-xl">Kembali ke Kamar</Link>
       </div>
     );
   }
@@ -109,6 +109,10 @@ export default function RoomDetailPage() {
                 </li>
                 <li className="flex items-start gap-2">
                   <span className="text-error font-bold">•</span>
+                  <span>Demi menjaga kenyamanan dan ketertiban bersama, **dilarang** membawa/menginapkan pasangan atau lawan jenis yang belum menikah di dalam kamar.</span>
+                </li>
+                <li className="flex items-start gap-2">
+                  <span className="text-error font-bold">•</span>
                   <span>**Dilarang** membawa hewan peliharaan (No Pets).</span>
                 </li>
                 <li className="flex items-start gap-2">
@@ -150,7 +154,7 @@ export default function RoomDetailPage() {
             <div className="grid grid-cols-3 gap-3">
               {[
                 { icon: Maximize2, label: 'Luas', value: `${room.size} m²` },
-                { icon: BedDouble, label: 'Lantai', value: `Lantai 1` },
+                { icon: BedDouble, label: 'Lantai', value: `Lantai ${room.floor}` },
                 { icon: Users, label: 'Tipe', value: `Khusus Putri` },
               ].map(({ icon: Icon, label, value }) => (
                 <div key={label} className="text-center p-3 rounded-2xl bg-base-200">
