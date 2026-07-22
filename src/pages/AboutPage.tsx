@@ -63,9 +63,9 @@ export default function AboutPage() {
             >
               {[
                 { value: '2026', label: 'Tahun Berdiri', emoji: '🏠' },
-                { value: '2 Orang', label: 'Penghuni Aktif', emoji: '👥' },
-                { value: '5.0★', label: 'Rating Google', emoji: '⭐' },
-                { value: 'Gress', label: 'Bangunan Baru', emoji: '✨' },
+                { value: '6 Unit', label: 'Total Kamar', emoji: '🛏️' },
+                { value: '2 Jenis', label: 'Tipe Kamar', emoji: '✨' },
+                { value: '5★', label: 'Rating Google', emoji: '⭐' },
               ].map((s, i) => (
                 <motion.div
                   key={s.label}

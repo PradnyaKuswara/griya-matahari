@@ -1,16 +1,15 @@
 import { useRef } from 'react';
 import { motion, useScroll, useTransform } from 'framer-motion';
-import { BedDouble, Users, Calendar, Star, Wifi, Shield } from 'lucide-react';
+import { BedDouble, Wifi, Shield, Star, Award } from 'lucide-react';
 import { useIntersectionObserver, useCountUp } from '../../hooks/useUtils';
 import { stats } from '../../data/facilities';
 
 const iconMap = {
   BedDouble,
-  Users,
-  Calendar,
-  Star,
   Wifi,
   Shield,
+  Star,
+  Award,
 };
 
 function StatCounter({ value, suffix, label, icon, start, scrollYProgress }: {

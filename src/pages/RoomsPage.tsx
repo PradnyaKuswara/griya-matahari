@@ -54,7 +54,7 @@ export default function RoomsPage() {
               Kamar &{' '}<span className="text-primary">Harga</span>
             </h1>
             <p className="text-base-content/60 max-w-xl mx-auto">
-              Temukan kamar yang sempurna untuk Anda. Dari standard hingga VIP, semua tersedia dengan harga terjangkau.
+              Temukan kamar yang sempurna untuk Anda. Tersedia pilihan tipe Standard dan Deluxe dengan fasilitas terbaik.
             </p>
           </motion.div>
         </div>
