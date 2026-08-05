@@ -1,5 +1,5 @@
 import { Link } from 'react-router-dom';
-import { MapPin, Phone, Mail, Instagram, ExternalLink, Heart } from 'lucide-react';
+import { MapPin, Mail, Instagram, ExternalLink, Heart } from 'lucide-react';
 
 const quickLinks = [
   { label: 'Beranda', path: '/' },
@@ -83,7 +83,7 @@ export default function Footer() {
             <h3 className="font-semibold text-base-content mb-4" style={{ fontFamily: 'Poppins, sans-serif' }}>Informasi Kontak</h3>
             <ul className="space-y-4">
               <li className="flex items-start gap-3">
-                <MapPin size={18} className="text-primary flex-shrink-0 mt-0.5" />
+                <MapPin size={18} className="text-primary shrink-0 mt-0.5" />
                 <p className="text-sm text-base-content/70 leading-relaxed">
                   Teduh Kost Matahari<br />
                   Jl. Matahari, Semarapura Kelod<br />
@@ -91,35 +91,29 @@ export default function Footer() {
                   Bali 80716 (F94W+RP4)
                 </p>
               </li>
-              <li className="flex flex-col gap-2">
-                <div className="flex items-center gap-3">
-                  <Phone size={18} className="text-primary flex-shrink-0" />
-                  <a href="tel:+628124605815" className="text-sm text-base-content/70 hover:text-primary transition-colors">
-                    +62 812-4605-815 (Ayu Sri)
-                  </a>
-                </div>
-                <div className="flex items-center gap-3">
-                  <Phone size={18} className="text-primary flex-shrink-0" />
-                  <a href="tel:+628970474149" className="text-sm text-base-content/70 hover:text-primary transition-colors">
-                    +62 897-0474-149 (Kuswara)
-                  </a>
-                </div>
+              <li className="flex flex-col gap-2 pt-1">
+                <a
+                  href="https://wa.me/628124605815?text=Halo%20Teduh%20Kost%20Matahari%2C%20saya%20ingin%20bertanya%20tentang%20kamar."
+                  target="_blank" rel="noopener noreferrer"
+                  className="btn btn-success btn-sm w-full gap-2 rounded-xl text-white font-medium"
+                >
+                  <span>💬</span> Chat WhatsApp (Ayu Sri)
+                </a>
+                <a
+                  href="https://wa.me/628970474149?text=Halo%20Teduh%20Kost%20Matahari%2C%20saya%20ingin%20bertanya%20tentang%20kamar."
+                  target="_blank" rel="noopener noreferrer"
+                  className="btn btn-outline btn-success btn-sm w-full gap-2 rounded-xl font-medium"
+                >
+                  <span>💬</span> Chat WhatsApp (Kuswara)
+                </a>
               </li>
-              <li className="flex items-center gap-3">
-                <Mail size={18} className="text-primary flex-shrink-0" />
+              <li className="flex items-center gap-3 pt-1">
+                <Mail size={18} className="text-primary shrink-0" />
                 <a href="mailto:teduhkostmatahari@gmail.com" className="text-sm text-base-content/70 hover:text-primary transition-colors">
                   teduhkostmatahari@gmail.com
                 </a>
               </li>
             </ul>
-            {/* WhatsApp CTA */}
-            <a
-              href="https://wa.me/628124605815?text=Halo%20Teduh%20Kost%20Matahari%2C%20saya%20ingin%20bertanya%20tentang%20kamar."
-              target="_blank" rel="noopener noreferrer"
-              className="mt-4 btn btn-success btn-sm w-full gap-2 rounded-xl"
-            >
-              <span>💬</span> Chat WhatsApp
-            </a>
           </div>
         </div>
       </div>

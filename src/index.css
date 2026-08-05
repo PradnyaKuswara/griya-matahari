@@ -1,6 +1,26 @@
-@import "tailwindcss";
+@import 'tailwindcss';
 @plugin "daisyui" {
-  themes: winter --default, forest --prefersdark, light, dark, cupcake, emerald, cyberpunk, valentine, garden, aqua, lofi, pastel, fantasy, dracula, luxury, night, coffee, dim, nord, sunset;
+  themes:
+    winter --default,
+    forest --prefersdark,
+    light,
+    dark,
+    cupcake,
+    emerald,
+    cyberpunk,
+    valentine,
+    garden,
+    aqua,
+    lofi,
+    pastel,
+    fantasy,
+    dracula,
+    luxury,
+    night,
+    coffee,
+    dim,
+    nord,
+    sunset;
 }
 
 @theme {
@@ -18,7 +38,12 @@ body {
   overflow-x: hidden;
 }
 
-h1, h2, h3, h4, h5, h6 {
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
   font-family: 'Poppins', sans-serif;
 }
 
@@ -38,9 +63,15 @@ h1, h2, h3, h4, h5, h6 {
 
 /* Animated gradient background */
 @keyframes gradient-shift {
-  0% { background-position: 0% 50%; }
-  50% { background-position: 100% 50%; }
-  100% { background-position: 0% 50%; }
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
 }
 
 .animated-gradient {
@@ -63,8 +94,13 @@ h1, h2, h3, h4, h5, h6 {
 
 /* Floating animation */
 @keyframes float {
-  0%, 100% { transform: translateY(0px); }
-  50% { transform: translateY(-20px); }
+  0%,
+  100% {
+    transform: translateY(0px);
+  }
+  50% {
+    transform: translateY(-20px);
+  }
 }
 
 .float-animation {
@@ -73,8 +109,13 @@ h1, h2, h3, h4, h5, h6 {
 
 /* Pulse glow */
 @keyframes pulse-glow {
-  0%, 100% { box-shadow: 0 0 20px oklch(var(--p) / 0.3); }
-  50% { box-shadow: 0 0 40px oklch(var(--p) / 0.7); }
+  0%,
+  100% {
+    box-shadow: 0 0 20px oklch(var(--p) / 0.3);
+  }
+  50% {
+    box-shadow: 0 0 40px oklch(var(--p) / 0.7);
+  }
 }
 
 .pulse-glow {
@@ -83,8 +124,12 @@ h1, h2, h3, h4, h5, h6 {
 
 /* Shimmer effect */
 @keyframes shimmer {
-  0% { background-position: -200% 0; }
-  100% { background-position: 200% 0; }
+  0% {
+    background-position: -200% 0;
+  }
+  100% {
+    background-position: 200% 0;
+  }
 }
 
 /* Section fade-in */
@@ -104,16 +149,30 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 /* Stagger delays */
-.delay-100 { animation-delay: 0.1s; }
-.delay-200 { animation-delay: 0.2s; }
-.delay-300 { animation-delay: 0.3s; }
-.delay-400 { animation-delay: 0.4s; }
-.delay-500 { animation-delay: 0.5s; }
+.delay-100 {
+  animation-delay: 0.1s;
+}
+.delay-200 {
+  animation-delay: 0.2s;
+}
+.delay-300 {
+  animation-delay: 0.3s;
+}
+.delay-400 {
+  animation-delay: 0.4s;
+}
+.delay-500 {
+  animation-delay: 0.5s;
+}
 
 /* Sun ray animation for hero */
 @keyframes sun-rotate {
-  from { transform: rotate(0deg); }
-  to { transform: rotate(360deg); }
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
 }
 
 .sun-rays {

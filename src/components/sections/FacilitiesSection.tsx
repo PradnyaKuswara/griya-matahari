@@ -33,25 +33,8 @@ const categoryOrder = ['utama', 'kamar', 'keamanan'] as const;
 
 export default function FacilitiesSection() {
   return (
-    <section className="py-20">
+    <section>
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-        {/* Header */}
-        <motion.div
-          initial={{ opacity: 0, y: 20 }}
-          whileInView={{ opacity: 1, y: 0 }}
-          viewport={{ once: true }}
-          transition={{ duration: 0.5 }}
-          className="text-center mb-16"
-        >
-          <span className="badge badge-primary badge-outline mb-3">Apa Yang Kami Sediakan</span>
-          <h2 className="text-3xl md:text-4xl font-bold text-base-content" style={{ fontFamily: 'Poppins, sans-serif' }}>
-            Fasilitas{' '}
-            <span className="text-primary">Lengkap</span> & Modern
-          </h2>
-          <p className="text-base-content/60 mt-3 max-w-2xl mx-auto">
-            Semua yang Anda butuhkan sudah tersedia. Fokus pada aktivitas Anda, biarkan kami yang urus kenyamanan hidup.
-          </p>
-        </motion.div>
 
         {/* Facilities by category */}
         <div className="space-y-12">
@@ -79,9 +62,9 @@ export default function FacilitiesSection() {
                         viewport={{ once: true }}
                         transition={{ duration: 0.3, delay: i * 0.08 }}
                         whileHover={{ y: -4 }}
-                        className={`flex items-start gap-4 p-4 rounded-2xl bg-gradient-to-br border transition-all duration-300 cursor-default ${categoryColors[cat]}`}
+                        className={`flex items-start gap-4 p-4 rounded-2xl bg-linear-to-br border transition-all duration-300 cursor-default ${categoryColors[cat]}`}
                       >
-                        <div className="w-11 h-11 rounded-xl bg-base-100/80 flex items-center justify-center flex-shrink-0 shadow-sm">
+                        <div className="w-11 h-11 rounded-xl bg-base-100/80 flex items-center justify-center shrink-0 shadow-sm">
                           {Icon && <Icon size={22} className={categoryIconColors[cat]} />}
                         </div>
                         <div>

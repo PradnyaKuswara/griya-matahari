@@ -31,4 +31,14 @@ export const testimonials: Testimonial[] = [
     duration: 'Surveyor / Calon Penghuni',
     roomType: 'Kamar Standard (Non-AC)',
   },
+  {
+    id: 't-04',
+    name: 'Desak Made Ratnasari',
+    occupation: 'Staff Tenaga Medis RSUD Klungkung',
+    avatar: 'https://api.dicebear.com/9.x/avataaars/svg?seed=Desak&backgroundColor=ffdfbf',
+    rating: 5,
+    review: 'Cari kos putri yang aman dan tenang di Semarapura Klungkung awalnya agak susah, tapi begitu tememu Teduh Kost Matahari langsung sreg. Tempatnya bersih, lingkungan sejuk, dan Ibu Ayu Sri sangat responsif diajak komunikasi via WhatsApp.',
+    duration: 'Penghuni Baru',
+    roomType: 'Kamar Deluxe (With AC)',
+  },
 ];

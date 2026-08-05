@@ -51,29 +51,29 @@ export default function HeroSection() {
   const glowY = mousePos.y * 60;
 
   return (
-    <div 
-      ref={containerRef} 
+    <div
+      ref={containerRef}
       className="relative min-h-screen flex flex-col items-center justify-center overflow-hidden bg-base-100 py-12 pt-28 lg:pt-36"
       style={{ perspective: 1200 }}
     >
       {/* 3D Glowing Ambient Lights (Orbs) linked to Mouse Position */}
-      <motion.div 
+      <motion.div
         animate={{ x: glowX, y: glowY }}
         transition={{ type: "spring", stiffness: 60, damping: 20 }}
-        className="absolute top-[-10%] left-[-10%] w-[50vw] h-[50vw] rounded-full bg-gradient-to-br from-yellow-400/20 to-orange-500/25 blur-[120px] pointer-events-none" 
+        className="absolute top-[-10%] left-[-10%] w-[50vw] h-[50vw] rounded-full bg-linear-to-br from-yellow-400/20 to-orange-500/25 blur-[120px] pointer-events-none"
       />
-      <motion.div 
+      <motion.div
         animate={{ x: -glowX, y: -glowY }}
         transition={{ type: "spring", stiffness: 60, damping: 20 }}
-        className="absolute bottom-[10%] right-[-10%] w-[55vw] h-[55vw] rounded-full bg-gradient-to-tr from-rose-500/20 to-yellow-500/10 blur-[130px] pointer-events-none" 
+        className="absolute bottom-[10%] right-[-10%] w-[55vw] h-[55vw] rounded-full bg-linear-to-tr from-rose-500/20 to-yellow-500/10 blur-[130px] pointer-events-none"
       />
 
       {/* Background Interactive Infinite Scrolling Image Wall */}
-      <motion.div 
-        style={{ 
-          y: wallY, 
+      <motion.div
+        style={{
+          y: wallY,
           scale: wallScale,
-          rotateX, 
+          rotateX,
           rotateY,
           transformStyle: "preserve-3d"
         }}
@@ -82,16 +82,16 @@ export default function HeroSection() {
         {/* Row 1 (Scroll Left) */}
         <div className="flex gap-6 w-[200%] animate-scroll-left">
           {[...wallImages, ...wallImages].map((img, i) => (
-            <div key={i} className="w-80 h-48 rounded-2xl overflow-hidden shadow-lg border border-base-300 flex-shrink-0">
+            <div key={i} className="w-80 h-48 rounded-2xl overflow-hidden shadow-lg border border-base-300 shrink-0">
               <img src={img} alt="Gallery item" className="w-full h-full object-cover" />
             </div>
           ))}
         </div>
 
         {/* Row 2 (Scroll Right) */}
-        <div className="flex gap-6 w-[200%] -ml-[50%] animate-scroll-right">
+        <div className="flex gap-6 w-[200%] ml-[-50%] animate-scroll-right">
           {[...wallImages, ...wallImages].map((img, i) => (
-            <div key={i} className="w-80 h-48 rounded-2xl overflow-hidden shadow-lg border border-base-300 flex-shrink-0">
+            <div key={i} className="w-80 h-48 rounded-2xl overflow-hidden shadow-lg border border-base-300 shrink-0">
               <img src={img} alt="Gallery item" className="w-full h-full object-cover" />
             </div>
           ))}
@@ -100,13 +100,13 @@ export default function HeroSection() {
 
       {/* Centered Typography Section (Glassmorphism overlay removed, text directly on top) */}
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative w-full z-10 flex flex-col items-center">
-        <motion.div 
+        <motion.div
           style={{ y: textY, opacity: textOpacity }}
           className="text-center space-y-8 max-w-4xl mx-auto flex flex-col items-center p-4 drop-shadow-[0_2px_15px_rgba(0,0,0,0.15)]"
         >
           {/* Location Badge */}
           <div className="inline-block">
-            <span className="inline-flex items-center gap-2 bg-gradient-to-r from-primary/10 to-orange-500/10 border border-primary/20 backdrop-blur-md rounded-2xl px-4 py-2 text-xs sm:text-sm font-bold text-primary">
+            <span className="inline-flex items-center gap-2 bg-linear-to-r from-primary/10 to-orange-500/10 border border-primary/20 backdrop-blur-md rounded-2xl px-4 py-2 text-xs sm:text-sm font-bold text-primary">
               <MapPin size={16} className="text-primary animate-bounce" />
               Semarapura Kelod, Klungkung, Bali
               <span className="w-2 h-2 rounded-full bg-green-500 animate-ping" />
@@ -114,12 +114,12 @@ export default function HeroSection() {
           </div>
 
           {/* Main Title */}
-          <h1 
+          <h1
             className="text-4xl sm:text-5xl md:text-7xl font-black leading-[1.05] tracking-tight text-base-content max-w-3xl"
             style={{ fontFamily: 'Poppins, sans-serif' }}
           >
             Hunian Asri & Nyaman<br />
-            <span className="bg-gradient-to-r from-yellow-500 via-orange-500 to-red-500 bg-clip-text text-transparent drop-shadow-sm font-extrabold">
+            <span className="bg-linear-to-r from-yellow-500 via-orange-500 to-red-500 bg-clip-text text-transparent drop-shadow-sm font-extrabold">
               Teduh Kost Matahari
             </span>
           </h1>
