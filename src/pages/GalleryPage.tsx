@@ -177,7 +177,7 @@ export default function GalleryPage() {
         </div>
 
         {/* Pinterest-style Masonry Grid */}
-        <motion.div layout className="columns-1 sm:columns-2 md:columns-3 lg:columns-4 gap-4 space-y-4">
+        <motion.div layout className="columns-2 md:columns-3 lg:columns-4 gap-3 sm:gap-4 space-y-3 sm:space-y-4">
           <AnimatePresence>
             {filtered.map((item, i) => (
               <motion.div
@@ -187,30 +187,30 @@ export default function GalleryPage() {
                 animate={{ opacity: 1, y: 0 }}
                 exit={{ opacity: 0, scale: 0.9 }}
                 transition={{ duration: 0.4, delay: i * 0.03 }}
-                className="break-inside-avoid relative overflow-hidden rounded-3xl cursor-pointer group bg-base-200 shadow-md hover:shadow-2xl transition-all duration-300 transform hover:-translate-y-1"
+                className="break-inside-avoid relative overflow-hidden rounded-2xl sm:rounded-3xl cursor-pointer group bg-base-200 shadow-sm sm:shadow-md hover:shadow-2xl transition-all duration-300 transform hover:-translate-y-1"
                 onClick={() => setLightbox(item.image)}
               >
                 <img
                   src={item.image}
                   alt={item.title}
-                  className="w-full h-auto object-cover rounded-3xl group-hover:scale-105 transition-transform duration-500"
+                  className="w-full h-auto object-cover rounded-2xl sm:rounded-3xl group-hover:scale-105 transition-transform duration-500"
                   loading="lazy"
                 />
 
                 {/* Floating Pinterest Category Badge */}
-                <div className="absolute top-3 right-3 opacity-0 group-hover:opacity-100 transition-opacity duration-300 z-10">
-                  <span className="badge badge-sm bg-black/60 text-white backdrop-blur-md border-0 capitalize px-2.5 py-1 text-[11px] font-medium">
+                <div className="absolute top-2 right-2 sm:top-3 sm:right-3 opacity-90 sm:opacity-0 sm:group-hover:opacity-100 transition-opacity duration-300 z-10">
+                  <span className="badge badge-xs sm:badge-sm bg-black/60 text-white backdrop-blur-md border-0 capitalize px-2 py-0.5 sm:px-2.5 sm:py-1 text-[10px] sm:text-[11px] font-medium">
                     {item.category}
                   </span>
                 </div>
 
                 {/* Gradient Overlay & Title */}
-                <div className="absolute inset-0 bg-linear-to-t from-black/80 via-black/20 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex flex-col justify-end p-5 rounded-3xl">
-                  <p className="text-white font-bold text-sm leading-snug drop-shadow-md">
+                <div className="absolute inset-0 bg-linear-to-t from-black/80 via-black/20 to-transparent opacity-90 sm:opacity-0 sm:group-hover:opacity-100 transition-opacity duration-300 flex flex-col justify-end p-3 sm:p-5 rounded-2xl sm:rounded-3xl">
+                  <p className="text-white font-bold text-xs sm:text-sm leading-tight sm:leading-snug drop-shadow-md">
                     {item.title}
                   </p>
-                  <span className="text-white/70 text-xs mt-1 flex items-center gap-1 font-medium">
-                    🔍 Klik untuk memperbesar
+                  <span className="text-white/70 text-[10px] sm:text-xs mt-0.5 sm:mt-1 flex items-center gap-1 font-medium">
+                    🔍 Perbesar
                   </span>
                 </div>
               </motion.div>
