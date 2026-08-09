@@ -5,8 +5,8 @@ export const rooms: Room[] = [
     id: 'r-01',
     name: 'Kamar Standard (Non-AC)',
     type: 'standard',
-    price: 1100000,
-    priceLabel: 'Rp 1.100.000',
+    price: 1200000,
+    priceLabel: 'Rp 1.200.000',
     size: 15,
     description: 'Kamar nyaman Non-AC khusus mahasiswi/karyawati dengan ventilasi udara yang baik, suasana sejuk dan asri. Sudah termasuk listrik dan air.',
     images: [

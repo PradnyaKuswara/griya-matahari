@@ -155,7 +155,7 @@ export default function HeroSection() {
               <ArrowRight size={20} />
             </Link>
             <a
-              href="https://wa.me/628124605815?text=Halo%20Teduh%20Kost%20Matahari%2C%20saya%20tertarik%20tanya%20ketersediaan%20kamar."
+              href="https://wa.me/6281548175522?text=Halo%20Teduh%20Kost%20Matahari%2C%20saya%20tertarik%20tanya%20ketersediaan%20kamar."
               target="_blank"
               rel="noopener noreferrer"
               className="btn btn-lg btn-outline border-2 rounded-2xl gap-2 px-8 hover:scale-[1.03] transition-transform w-full sm:w-auto"

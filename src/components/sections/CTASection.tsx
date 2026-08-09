@@ -51,7 +51,7 @@ export default function CTASection() {
               Cek Ketersediaan Kamar <ArrowRight size={20} />
             </Link>
             <a
-              href="tel:+628124605815"
+              href="tel:+6281548175522"
               id="cta-phone-btn"
               className="btn btn-lg btn-outline border-2 border-white text-white hover:bg-white/20 rounded-2xl gap-2 px-8 transition-all duration-300"
             >

@@ -185,27 +185,17 @@ export default function RoomDetailPage() {
             </div>
 
             {/* CTA */}
-            <div className="flex flex-col gap-3 pt-2">
-              <div className="text-sm font-semibold text-base-content/70 mb-1">Hubungi Pengelola (WhatsApp):</div>
-              <div className="grid sm:grid-cols-2 gap-2">
+              <div className="flex flex-col gap-3 pt-2">
+                <div className="text-sm font-semibold text-base-content/70 mb-1">Hubungi Pengelola (WhatsApp):</div>
                 <a
-                  href={`https://wa.me/628124605815?text=${waMessage}`}
+                  href={`https://wa.me/6281548175522?text=${waMessage}`}
                   target="_blank" rel="noopener noreferrer"
-                  className={`btn btn-success rounded-xl gap-2 ${room.available ? '' : 'btn-disabled'}`}
+                  className={`btn btn-success rounded-xl gap-2 w-full ${room.available ? '' : 'btn-disabled'}`}
                 >
                   <MessageCircle size={18} />
-                  Gusti Ayu Sri
-                </a>
-                <a
-                  href={`https://wa.me/628970474149?text=${waMessage}`}
-                  target="_blank" rel="noopener noreferrer"
-                  className={`btn btn-success rounded-xl gap-2 ${room.available ? '' : 'btn-disabled'}`}
-                >
-                  <MessageCircle size={18} />
-                  Kuswara
+                  Hubungi Pengelola
                 </a>
               </div>
-            </div>
           </div>
         </div>
       </div>

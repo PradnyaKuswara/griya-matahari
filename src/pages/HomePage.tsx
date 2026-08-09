@@ -16,7 +16,7 @@ export default function HomePage() {
     >
       <Helmet>
         <title>Kost Putri Klungkung Bali – Teduh Kost Matahari Semarapura | WiFi, AC, CCTV</title>
-        <meta name="description" content="Teduh Kost Matahari – Kost putri terbaik di Semarapura Klungkung Bali. Kamar AC & Non-AC mulai Rp 1.100.000/bulan, include listrik & air, WiFi 150 Mbps, CCTV 24 jam, kamar mandi dalam. Khusus mahasiswi & karyawati." />
+        <meta name="description" content="Teduh Kost Matahari – Kost putri terbaik di Semarapura Klungkung Bali. Kamar AC & Non-AC mulai Rp 1.200.000/bulan, include listrik & air, WiFi 150 Mbps, CCTV 24 jam, kamar mandi dalam. Khusus mahasiswi & karyawati." />
         <link rel="canonical" href="https://teduhkostmatahari.web.id/" />
       </Helmet>
       <HeroSection />

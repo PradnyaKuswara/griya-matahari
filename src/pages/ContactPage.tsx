@@ -74,9 +74,9 @@ export default function ContactPage() {
           </div>
 
           {/* Pengelola WhatsApp Cards */}
-          <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
+          <div className="grid grid-cols-1 gap-4">
             <a
-              href="https://wa.me/628124605815?text=Halo%20Ayu%20Sri%2C%20saya%20tertarik%20tanya%20ketersediaan%20kamar%20di%20Teduh%20Kost%20Matahari."
+              href="https://wa.me/6281548175522?text=Halo%20Teduh%20Kost%20Matahari%2C%20saya%20tertarik%20tanya%20ketersediaan%20kamar%20di%20Teduh%20Kost%20Matahari."
               target="_blank"
               rel="noopener noreferrer"
               className="p-5 rounded-3xl bg-linear-to-br from-emerald-500/10 via-base-200 to-base-100 border border-emerald-500/30 hover:border-emerald-500 transition-all duration-300 group hover:-translate-y-1 shadow-lg"
@@ -84,24 +84,8 @@ export default function ContactPage() {
               <div className="w-10 h-10 rounded-2xl bg-emerald-500/20 text-emerald-600 flex items-center justify-center mb-3 group-hover:scale-110 transition-transform">
                 <MessageCircle size={20} />
               </div>
-              <h3 className="font-bold text-base-content text-base">Ayu Sri</h3>
-              <p className="text-xs text-base-content/60 mb-4 font-medium">Pengelola 1</p>
-              <span className="btn btn-success btn-xs rounded-xl w-full text-white font-bold gap-1">
-                Chat WhatsApp →
-              </span>
-            </a>
-
-            <a
-              href="https://wa.me/628970474149?text=Halo%20Pak%20Kuswara%2C%20saya%20tertarik%20tanya%20ketersediaan%20kamar%20di%20Teduh%20Kost%20Matahari."
-              target="_blank"
-              rel="noopener noreferrer"
-              className="p-5 rounded-3xl bg-linear-to-br from-emerald-500/10 via-base-200 to-base-100 border border-emerald-500/30 hover:border-emerald-500 transition-all duration-300 group hover:-translate-y-1 shadow-lg"
-            >
-              <div className="w-10 h-10 rounded-2xl bg-emerald-500/20 text-emerald-600 flex items-center justify-center mb-3 group-hover:scale-110 transition-transform">
-                <MessageCircle size={20} />
-              </div>
-              <h3 className="font-bold text-base-content text-base">Kuswara</h3>
-              <p className="text-xs text-base-content/60 mb-4 font-medium">Pengelola 2</p>
+              <h3 className="font-bold text-base-content text-base">Pengelola</h3>
+              <p className="text-xs text-base-content/60 mb-4 font-medium">Hubungi via WhatsApp</p>
               <span className="btn btn-success btn-xs rounded-xl w-full text-white font-bold gap-1">
                 Chat WhatsApp →
               </span>

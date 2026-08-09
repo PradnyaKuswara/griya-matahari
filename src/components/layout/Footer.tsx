@@ -93,18 +93,11 @@ export default function Footer() {
               </li>
               <li className="flex flex-col gap-2 pt-1">
                 <a
-                  href="https://wa.me/628124605815?text=Halo%20Teduh%20Kost%20Matahari%2C%20saya%20ingin%20bertanya%20tentang%20kamar."
+                  href="https://wa.me/6281548175522?text=Halo%20Teduh%20Kost%20Matahari%2C%20saya%20ingin%20bertanya%20tentang%20kamar."
                   target="_blank" rel="noopener noreferrer"
                   className="btn btn-success btn-sm w-full gap-2 rounded-xl text-white font-medium"
                 >
-                  <span>💬</span> Chat WhatsApp (Ayu Sri)
-                </a>
-                <a
-                  href="https://wa.me/628970474149?text=Halo%20Teduh%20Kost%20Matahari%2C%20saya%20ingin%20bertanya%20tentang%20kamar."
-                  target="_blank" rel="noopener noreferrer"
-                  className="btn btn-outline btn-success btn-sm w-full gap-2 rounded-xl font-medium"
-                >
-                  <span>💬</span> Chat WhatsApp (Kuswara)
+                  <span>💬</span> Chat WhatsApp
                 </a>
               </li>
               <li className="flex items-center gap-3 pt-1">

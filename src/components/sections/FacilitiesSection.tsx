@@ -85,7 +85,7 @@ export default function FacilitiesSection() {
           initial={{ opacity: 0 }}
           whileInView={{ opacity: 1 }}
           viewport={{ once: true }}
-          className="text-center mt-12"
+          className="text-center my-12"
         >
           <Link to="/facilities" className="btn btn-primary btn-lg rounded-2xl gap-2 shadow-lg hover:shadow-primary/30 hover:scale-105 transition-all duration-300">
             Lihat Semua Fasilitas <ArrowRight size={18} />
